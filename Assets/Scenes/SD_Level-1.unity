@@ -1130,10 +1130,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1395555262}
   - component: {fileID: 1395555261}
-  - component: {fileID: 1395555263}
   - component: {fileID: 1395555266}
-  - component: {fileID: 1395555265}
   - component: {fileID: 1395555264}
+  - component: {fileID: 1395555263}
   m_Layer: 7
   m_Name: Keranjang
   m_TagString: Player
@@ -1281,18 +1280,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 16.29, y: 2.6480932}
   m_EdgeRadius: 0
---- !u!114 &1395555265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395555259}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 322bf667180e3b24dbe03706a79fb78f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &1395555266
 Rigidbody2D:
   serializedVersion: 4
