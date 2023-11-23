@@ -8,7 +8,7 @@ public class SpawnFruit : MonoBehaviour
     Camera mainCamera;
     GameObject fruit;
 
-    [SerializeField] private GameObject[] FruitsArray;
+    [SerializeField] public GameObject[] FruitsArray;
     public float SpawnDelay = 0f;
     public bool isSpawning = false;
     public float verticalVelocity = -5f; // kecepatan jatuh buah
@@ -82,6 +82,14 @@ public class SpawnFruit : MonoBehaviour
         {
             rb.velocity = new Vector2(0, verticalVelocity);
         }
+
+        //Memasukan FruitIndex ke Script CollectFruit
+        CollectFruit CollectFruit = fruit.GetComponent<CollectFruit>();
+        if (CollectFruit != null)
+        {
+            CollectFruit.SetIndex(randomFruitIndex);
+        }
+
         isSpawning = false;
     }
 }

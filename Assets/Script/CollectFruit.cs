@@ -2,24 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CollectFruit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+     CountCollectedFruit CountCollectedFruit;
+    int Index;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start() {
+        CountCollectedFruit = GameObject.Find("CountCollectedFruit").GetComponent<CountCollectedFruit>();
+    }
+    public void SetIndex(int FruitIndex) {
+        Index = FruitIndex;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            CountCollectedFruit.CollectedFruit(Index);
             Destroy(gameObject);
         }
     }
