@@ -42,6 +42,12 @@ jobs:
           restore-keys: |
             Library-
 
+      # Set up SSH key
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       # Test
       - name: Run tests
         uses: game-ci/unity-test-runner@v4
