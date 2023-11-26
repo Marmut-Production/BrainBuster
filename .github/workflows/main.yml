@@ -41,16 +41,7 @@ jobs:
           key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
           restore-keys: |
             Library-
-
-      # Set up SSH key
-      - uses: actions/checkout@v4
-      - uses: webfactory/ssh-agent@v0.8.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      - uses: game-ci/unity-builder@v4
-        with:
-          sshAgent: ${{ env.SSH_AUTH_SOCK }}
-
+  
       # Test
       - name: Run tests
         uses: game-ci/unity-test-runner@v4
