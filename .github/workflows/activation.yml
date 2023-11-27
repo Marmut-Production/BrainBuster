@@ -6,8 +6,6 @@ jobs:
   activation:
     name: Request manual activation file 🔑
     runs-on: ubuntu-latest
-    env:
-      UNITY_VERSION: ${{ env.UNITY_VERSION }}
     steps:
       # Request manual activation file
       - name: Request manual activation file
