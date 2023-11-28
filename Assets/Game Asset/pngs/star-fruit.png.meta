@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      star-fruit_0: 5231876457270140152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
