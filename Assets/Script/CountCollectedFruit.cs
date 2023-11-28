@@ -5,7 +5,7 @@ using UnityEngine;
 public class CountCollectedFruit : MonoBehaviour
 {
     SpawnFruit spawnFruit;
-    int[] FruitCount = new int[3];
+    public int[] FruitCount = new int[3];
     // Start is called before the first frame update
     public void CollectedFruit(int FruitIndex) {
         FruitCount[FruitIndex] += 1;

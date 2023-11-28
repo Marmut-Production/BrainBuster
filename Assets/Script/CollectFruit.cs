@@ -20,7 +20,7 @@ public class CollectFruit : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             CountCollectedFruit.CollectedFruit(Index);
-            Destroy(gameObject);
+            Lean.Pool.LeanPool.Despawn(gameObject);
         }
     }
 }
