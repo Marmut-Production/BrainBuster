@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      keranjang_2_0: -6413949602206396930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
