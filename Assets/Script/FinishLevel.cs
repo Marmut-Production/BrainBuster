@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class FinishLevel : MonoBehaviour
 {
     public TextMeshProUGUI levelCompleteText;
-    public Image LevelCompleteImage; 
+    public Image LevelCompleteImage;
 
     // Index buah
     int BananaIndex = 0;
@@ -20,6 +20,7 @@ public class FinishLevel : MonoBehaviour
     [SerializeField] private int BananaCount = 0;
     [SerializeField] private int PearCount = 0;
 
+    public int CompletedLevels = 0;
     [SerializeField] private int NextLevelName;
 
     // Buah yang sudah dikumpulkan
@@ -31,8 +32,7 @@ public class FinishLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         levelCompleteText.gameObject.SetActive(false);
-         LevelCompleteImage.gameObject.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -43,8 +43,9 @@ public class FinishLevel : MonoBehaviour
         if ((CollectedApple == AppleCount) && (CollectedBanana == BananaCount) && (CollectedPear == PearCount))
         {
             levelCompleteText.gameObject.SetActive(true);
+            CompletedLevels += 1;
             SceneManager.LoadScene(NextLevelName);
-        } 
+        }
         else if ((CollectedApple > AppleCount) || (CollectedBanana > BananaCount) || (CollectedPear > PearCount))
         {
             Debug.Log("Jumlah buah yang dikumpulkan melebihi jumlah buah yang harus dikumpulkan");

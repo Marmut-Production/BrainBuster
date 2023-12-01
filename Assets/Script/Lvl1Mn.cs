@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void Lvlsd1()
     {
-        SceneManager.LoadScene("SD 1");
+        SceneManager.LoadScene("SelectLevel");
     }
     public void bckmenu()
     {
