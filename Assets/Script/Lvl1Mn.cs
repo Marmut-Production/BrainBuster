@@ -7,9 +7,15 @@ public class Menu : MonoBehaviour
 {
     public void Lvlsd1()
     {
-        Debug.Log("Trying to load sd");
         SceneManager.LoadScene("SD 1");
-        Debug.Log("SD-1");
+    }
+    public void bckmenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void klr()
+    {
+        Application.Quit();
     }
 }
 
