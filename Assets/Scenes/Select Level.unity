@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 182473093}
   - component: {fileID: 182473092}
   m_Layer: 5
-  m_Name: Button_lvl1 (2)
+  m_Name: Button_lvl3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 263932758}
   - component: {fileID: 263932757}
   m_Layer: 5
-  m_Name: Button_lvl1 (3)
+  m_Name: Button_lvl4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1332,7 +1332,7 @@ GameObject:
   - component: {fileID: 655596175}
   - component: {fileID: 655596174}
   m_Layer: 5
-  m_Name: Button_lvl1 (4)
+  m_Name: Button_lvl5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1477,7 +1477,7 @@ GameObject:
   - component: {fileID: 800415078}
   - component: {fileID: 800415077}
   m_Layer: 5
-  m_Name: Button_lvl1 (6)
+  m_Name: Button_lvl7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1622,7 +1622,7 @@ GameObject:
   - component: {fileID: 851802142}
   - component: {fileID: 851802141}
   m_Layer: 5
-  m_Name: Button_lvl1 (9)
+  m_Name: Button_lvl10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1901,7 +1901,7 @@ GameObject:
   - component: {fileID: 908717361}
   - component: {fileID: 908717360}
   m_Layer: 5
-  m_Name: Button_lvl1 (5)
+  m_Name: Button_lvl6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2754,7 +2754,7 @@ GameObject:
   - component: {fileID: 1345259003}
   - component: {fileID: 1345259002}
   m_Layer: 5
-  m_Name: Button_lvl1 (7)
+  m_Name: Button_lvl8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3461,7 +3461,7 @@ GameObject:
   - component: {fileID: 1614688960}
   - component: {fileID: 1614688959}
   m_Layer: 5
-  m_Name: Button_lvl1 (8)
+  m_Name: Button_lvl9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4081,7 +4081,7 @@ GameObject:
   - component: {fileID: 1943637360}
   - component: {fileID: 1943637359}
   m_Layer: 5
-  m_Name: Button_lvl1 (1)
+  m_Name: Button_lvl2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
