@@ -296,6 +296,7 @@ MonoBehaviour:
   AppleCount: 5
   BananaCount: 0
   PearCount: 0
+  CompletedLevels: 0
   NextLevelName: 0
 --- !u!4 &320942370
 Transform:
