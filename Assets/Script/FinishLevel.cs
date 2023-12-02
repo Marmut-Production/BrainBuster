@@ -19,7 +19,7 @@ public class FinishLevel : MonoBehaviour
     [SerializeField] private int PearCount = 0;
 
     // Level yang sudah diselesaikan
-    public int CompletedLevels = 0;
+    CompletedLevels completedLevels;
 
     // Buah yang sudah dikumpulkan
     // Collected CollectedFruit = ;
@@ -34,7 +34,7 @@ public class FinishLevel : MonoBehaviour
         CountCollectedFruit();
         if ((CollectedApple == AppleCount) && (CollectedBanana == BananaCount) && (CollectedPear == PearCount))
         {
-            CompletedLevels += 1;
+            completedLevels.CompletedLevel += 1;
             SceneManager.LoadScene("complete");
         }
         else if ((CollectedApple > AppleCount) || (CollectedBanana > BananaCount) || (CollectedPear > PearCount))
