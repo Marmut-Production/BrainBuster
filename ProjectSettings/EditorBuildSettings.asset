@@ -15,11 +15,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Select Level.unity
     guid: 7c4b566dec49dd24a8308eaaf5b1b988
   - enabled: 1
+    path: Assets/Scenes/QuestionScene.unity
+    guid: 0454c09064bf8774daf6e6e15637023a
+  - enabled: 1
     path: Assets/Scenes/Level SD/SD 1.unity
     guid: e337f1161de5b914f87f346747773728
   - enabled: 1
-    path: Assets/Scenes/Game  Over.unity
+    path: Assets/Scenes/Game Over.unity
     guid: 3a9f1acdf6e79ef44b4af8fbe68c3765
+  - enabled: 1
+    path: Assets/Scenes/complete.unity
+    guid: a960e29743d5cb0468e8ea4b056399e8
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6710c95e1245cf348b75a168604137e5, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 475af0ee8c7eca24a9ae2a44c25dc8ed, type: 2}
