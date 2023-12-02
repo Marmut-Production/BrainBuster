@@ -5,23 +5,25 @@ using UnityEngine.SceneManagement;
 using TMPro;
 public class btn_Plus : MonoBehaviour
 {
-    public int Angka = 0;
-    [SerializeField] private TextMeshProUGUI textMeshPro;
+    public CounterManager counterManager;
+    
+    [SerializeField] TextMeshProUGUI textMeshPro;
+
     public void Plus()
     {
-        Angka += 1;
-        Debug.Log(Angka);
-        textMeshPro.text = Angka.ToString();
+        counterManager.Angka += 1;
+        Debug.Log(counterManager.Angka);
+        textMeshPro.text = counterManager.Angka.ToString();
     }
 
     public void Minus()
     {
-
-    }
-
-    void Update()
-    {
-        textMeshPro.text = Angka.ToString();
+        if (counterManager.Angka > 0)
+        {
+            counterManager.Angka -= 1;
+        }
+        Debug.Log(counterManager.Angka);
+        textMeshPro.text = counterManager.Angka.ToString();
     }
 }
 
