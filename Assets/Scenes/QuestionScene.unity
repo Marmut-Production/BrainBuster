@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CorrectAnswer: 3
-  Level: SD 1
+  ChangeLevel: SD 1
 --- !u!1 &1021546255
 GameObject:
   m_ObjectHideFlags: 0
