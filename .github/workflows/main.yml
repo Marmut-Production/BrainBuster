@@ -56,6 +56,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      #Debug info
+      - name: Debug information
+        run: |
+          git status
+          git log -1
+          
       # Git LFS
       - name: Create LFS file list
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
