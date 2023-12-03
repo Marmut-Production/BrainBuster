@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      black-berry-light_0: -6979372473745281254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

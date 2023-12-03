@@ -1,15 +1,18 @@
 name: Actions 😎
 
 on:
+  workflow_dispatch: {}
   push:
     branches:
       - Releases
-  pull_request:
-    branches:
-      - Releases
+  # pull_request:
+  #   branches:
+  #     - Releases
 
 jobs:
   build:
+    # needs: checklicense
+    # if: needs.checklicense.outputs.is_unity_license_set == 'true'
     name: Build my project ✨
     runs-on: ubuntu-latest
     steps:
@@ -17,6 +20,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      #Debug info
+      - name: Debug information
+        run: |
+          git status
+          git log -1
+          git diff
+          
       # Git LFS
       - name: Create LFS file list
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
@@ -41,20 +51,19 @@ jobs:
           key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
           restore-keys: |
             Library-
+  
+      # # Test
+      # - name: Run tests
+      #   uses: game-ci/unity-test-runner@v4
+      #   env:
+      #     UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      #   with:
+      #     githubToken: ${{ secrets.GITHUB_TOKEN }}
 
-      # Set up SSH key
-      - name: Set up SSH key
-        uses: webfactory/ssh-agent@v0.8.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      # Test
-      - name: Run tests
-        uses: game-ci/unity-test-runner@v4
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Ensure Clean Working Directory
+        run: |
+          git reset --hard
+          git clean -xdf
 
       # Build
       - name: Build project

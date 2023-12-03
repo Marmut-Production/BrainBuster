@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      red-cherry_0: 311879010812045237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

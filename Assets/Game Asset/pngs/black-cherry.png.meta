@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      black-cherry_0: -8981188409548630178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

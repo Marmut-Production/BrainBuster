@@ -8,6 +8,78 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/Select Level.unity
+    guid: 7c4b566dec49dd24a8308eaaf5b1b988
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 1.unity
+    guid: 0454c09064bf8774daf6e6e15637023a
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 2.unity
+    guid: 8b48ad89b2aff1d4cbe57a4105c96ece
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 3.unity
+    guid: 7d4147147daacb14a93e267368774bbb
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 4.unity
+    guid: e64bf1995eba54c46aa859b8388abf47
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 5.unity
+    guid: 468c6dd95a5c20f4cb93873263fbcba5
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 6.unity
+    guid: 7c99d34d9e9e177418a80687db89af9c
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 7.unity
+    guid: 3f406c6792820b64585c127be5c7e9c1
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 8.unity
+    guid: d1a573df8a07f41449e357a559d4ad74
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 9.unity
+    guid: 2c1fd6d5fd5fb89419ac01633596f780
+  - enabled: 1
+    path: Assets/Scenes/Question SD/Level 10.unity
+    guid: d378af2d5b67f5542b1fd6bbe77788dc
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 1.unity
+    guid: e337f1161de5b914f87f346747773728
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 2.unity
+    guid: 153bd55f396909c4ebb478d02dad0720
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 3.unity
+    guid: 777359a995a864547a8e6542c0bd2bbe
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 4.unity
+    guid: 82f3e441f2949454ebfc821edd6d1680
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 5.unity
+    guid: 213f6c1c0c1eda540ae09a38e070f79d
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 6.unity
+    guid: 14df9e105d7746d4bb973b9f474c447b
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 7.unity
+    guid: 4f4e5f546c6bc364a9c2f9e30614b007
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 8.unity
+    guid: 0648571ea51aed141ba6ff8946b66c96
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 9.unity
+    guid: 24597f62096150a439b9e895baa1bf24
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SD/SD 10.unity
+    guid: c92a9c9bb624b8341ab57ea42a6cfb9f
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 3a9f1acdf6e79ef44b4af8fbe68c3765
+  - enabled: 1
+    path: Assets/Scenes/complete.unity
+    guid: a960e29743d5cb0468e8ea4b056399e8
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6710c95e1245cf348b75a168604137e5, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 475af0ee8c7eca24a9ae2a44c25dc8ed, type: 2}
