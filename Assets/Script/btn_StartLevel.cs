@@ -17,7 +17,6 @@ public class btn_StartLevel : MonoBehaviour
     {
         ClickedLevelName = Regex.Replace(gameObject.name, "[^0-9]", "");
         ClickedLevel = int.Parse(ClickedLevelName);
-        Debug.Log(ClickedLevel);
         completedLevels = GameObject.Find("CompletedLevel").GetComponent<CompletedLevels>();
         finishedLevel = completedLevels.CompletedLevel;
 

@@ -27,6 +27,11 @@ public class FinishLevel : MonoBehaviour
     int CollectedBanana;
     int CollectedPear;
 
+    private void Awake()
+    {
+        completedLevels = GameObject.Find("CompletedLevel").GetComponent<CompletedLevels>();
+    }
+
     // Update is called once per frame
     void Update()
     {

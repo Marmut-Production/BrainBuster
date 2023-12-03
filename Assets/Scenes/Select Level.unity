@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 42892665}
   - component: {fileID: 42892666}
+  - component: {fileID: 42892667}
   m_Layer: 0
   m_Name: Gembok (5)
   m_TagString: Untagged
@@ -204,6 +205,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &42892667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42892664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 8
 --- !u!1 &54245208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd12577112ba1114ca231265f53a3fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CompletedLevel: 0
+  CompletedLevel: 8
 --- !u!4 &393179790
 Transform:
   m_ObjectHideFlags: 0
@@ -1607,6 +1621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798966945}
   - component: {fileID: 798966946}
+  - component: {fileID: 798966947}
   m_Layer: 0
   m_Name: Gembok (1)
   m_TagString: Untagged
@@ -1681,6 +1696,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &798966947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798966944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 3
 --- !u!1 &800415075
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,6 +2422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 968660134}
   - component: {fileID: 968660135}
+  - component: {fileID: 968660136}
   m_Layer: 0
   m_Name: Gembok (8)
   m_TagString: Untagged
@@ -2468,6 +2497,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &968660136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968660133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 5
 --- !u!1 &1045572645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2699,6 +2741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1116427175}
   - component: {fileID: 1116427176}
+  - component: {fileID: 1116427177}
   m_Layer: 0
   m_Name: Gembok (3)
   m_TagString: Untagged
@@ -2773,6 +2816,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1116427177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116427174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 6
 --- !u!1 &1149472207
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,6 +3675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538924963}
   - component: {fileID: 1538924964}
+  - component: {fileID: 1538924965}
   m_Layer: 0
   m_Name: Gembok (6)
   m_TagString: Untagged
@@ -3693,6 +3750,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1538924965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538924962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 9
 --- !u!1 &1570493158
 GameObject:
   m_ObjectHideFlags: 0
@@ -3795,6 +3865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588700986}
   - component: {fileID: 1588700987}
+  - component: {fileID: 1588700988}
   m_Layer: 0
   m_Name: Gembok (7)
   m_TagString: Untagged
@@ -3869,6 +3940,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1588700988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588700985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 10
 --- !u!1 &1601952542
 GameObject:
   m_ObjectHideFlags: 0
@@ -4327,6 +4411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1680037792}
   - component: {fileID: 1680037793}
+  - component: {fileID: 1680037794}
   m_Layer: 0
   m_Name: Gembok (2)
   m_TagString: Untagged
@@ -4401,6 +4486,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1680037794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680037791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 4
 --- !u!1 &1745350145
 GameObject:
   m_ObjectHideFlags: 0
@@ -4632,6 +4730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1785163456}
   - component: {fileID: 1785163457}
+  - component: {fileID: 1785163458}
   m_Layer: 0
   m_Name: Gembok (4)
   m_TagString: Untagged
@@ -4706,6 +4805,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1785163458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785163455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 7
 --- !u!1 &1921315562
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,6 +5060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977013323}
   - component: {fileID: 1977013322}
+  - component: {fileID: 1977013324}
   m_Layer: 0
   m_Name: Gembok
   m_TagString: Untagged
@@ -5022,6 +5135,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1341378586}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977013324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977013321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45aace4a0702ae142844fa95bb798f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GembokLevel: 2
 --- !u!1 &1987120543
 GameObject:
   m_ObjectHideFlags: 0
