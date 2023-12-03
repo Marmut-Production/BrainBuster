@@ -80,6 +80,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/complete.unity
     guid: a960e29743d5cb0468e8ea4b056399e8
+  - enabled: 1
+    path: Assets/Scenes/Mini Game SMP/Buy DLC.unity
+    guid: 2cd3025e46530954ebfea319fa777846
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6710c95e1245cf348b75a168604137e5, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 475af0ee8c7eca24a9ae2a44c25dc8ed, type: 2}
