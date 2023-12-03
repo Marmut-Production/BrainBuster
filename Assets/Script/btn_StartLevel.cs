@@ -8,7 +8,6 @@ using static CompletedLevels;
 public class btn_StartLevel : MonoBehaviour
 {
     CompletedLevels completedLevels;
-    int finishedLevel;
     GameObject btnClickedLevel;
     string ClickedLevelName;
     int ClickedLevel;
@@ -18,14 +17,15 @@ public class btn_StartLevel : MonoBehaviour
         ClickedLevelName = Regex.Replace(gameObject.name, "[^0-9]", "");
         ClickedLevel = int.Parse(ClickedLevelName);
         completedLevels = GameObject.Find("CompletedLevel").GetComponent<CompletedLevels>();
-        finishedLevel = completedLevels.CompletedLevel;
 
         btnClickedLevel = transform.parent.gameObject;
+
+        Debug.Log($"Button read completed level: {completedLevels.CompletedLevel}");
     }
 
     public void StartLevel(string levelName)
     {
-        if (finishedLevel == ClickedLevel - 1) {
+        if (completedLevels.CompletedLevel >= ClickedLevel - 1) {
             SceneManager.LoadScene(levelName);
         } else {
             Debug.Log("Level masih terkunci!");

@@ -19,7 +19,7 @@ public class Gembok_UI : MonoBehaviour
     {
         if (completedLevels.CompletedLevel + 1 >= GembokLevel)
         {
-            Debug.Log(completedLevels.CompletedLevel);
+            Debug.Log($"Completed levels: {completedLevels.CompletedLevel}");
             gameObject.SetActive(false);
         }
         else

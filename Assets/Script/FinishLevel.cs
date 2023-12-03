@@ -21,6 +21,9 @@ public class FinishLevel : MonoBehaviour
     // Level yang sudah diselesaikan
     CompletedLevels completedLevels;
 
+    // Level yang sedang dimainkan
+    [SerializeField] private int CurrentLevel;
+
     // Buah yang sudah dikumpulkan
     // Collected CollectedFruit = ;
     int CollectedApple;
@@ -39,7 +42,13 @@ public class FinishLevel : MonoBehaviour
         CountCollectedFruit();
         if ((CollectedApple == AppleCount) && (CollectedBanana == BananaCount) && (CollectedPear == PearCount))
         {
-            completedLevels.CompletedLevel += 1;
+            // mengecek apakah level yang diselesaikan lebih besar dari level yang sudah diselesaikan
+            if (completedLevels.CompletedLevel < CurrentLevel)
+            {
+                completedLevels.CompletedLevel = CurrentLevel;
+                completedLevels.SaveCompletedLevel();
+            }
+            Debug.Log($"Completed levels: {completedLevels.CompletedLevel}");
             SceneManager.LoadScene("complete");
         }
         else if ((CollectedApple > AppleCount) || (CollectedBanana > BananaCount) || (CollectedPear > PearCount))
