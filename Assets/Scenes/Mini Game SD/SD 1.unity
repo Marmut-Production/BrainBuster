@@ -291,13 +291,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69fe9b70536a02d4b923bb5e0ca9c6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelCompleteText: {fileID: 0}
-  LevelCompleteImage: {fileID: 0}
-  AppleCount: 5
+  AppleCount: 3
   BananaCount: 0
   PearCount: 0
-  CompletedLevels: 0
-  NextLevelName: 0
 --- !u!4 &320942370
 Transform:
   m_ObjectHideFlags: 0
